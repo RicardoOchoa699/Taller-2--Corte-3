@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.columna-izquierda {
+    text-align: center;
+    padding-right: 30px;
+    border-right: 1px solid #ddd;
+}
+
+.imagen-usuario img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ccc;
+}
+
+.columna-izquierda h3 {
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.columna-derecha {
+    padding-left: 30px;
+}
+
+.columna-derecha h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.columna-derecha p {
+    margin: 5px 0;
+}
